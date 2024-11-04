@@ -1,7 +1,7 @@
-function traducir() {
-    const textoEs = document.querySelector('.texto-es');
-    const textoEn = document.querySelector('.texto-en');
-    const boton = document.querySelector('.translate-btn');
+function Traducir() {
+    const textoEs = document.querySelector('.esText');
+    const textoEn = document.querySelector('.enText');
+    const boton = document.querySelector('.translateBtn');
 
     if (textoEs.style.display === 'none') {
         textoEs.style.display = 'block';
