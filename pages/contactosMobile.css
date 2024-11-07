@@ -1,13 +1,9 @@
+/* Estilos Base - Mobile */
 .contact .content {
     text-align: center;
     background-color: #f9f9f9;
     margin-top: 64px;
 }
-
-.contact p {
-    font-size: 20px;
-    color: #666;
-  }
 
 .contactForm {
     max-width: 500px;
@@ -45,66 +41,45 @@
     background-color: #555;
 }
 
-
-/* Tablet Querry */
-
+/* Tablet - min-width: 768px */
 @media (min-width: 768px) {
-
     .contact .content {
         margin-top: 88px;
     }
-    
-    .contact .content p {
-        font-size: 28px;
-    }
 
-    .contact .content h2 {
+    .contact h2 {
         font-size: 32px;
     }
-    
+
     .contactForm {
         max-width: 80%;
         margin: 64px auto;
         gap: 20px;
-        border: 2px solid #777;
         padding: 16px;
-    }
-    
-    .contactForm label {
-        text-align: left;
-        font-weight: bold;
-    }
-    
-    .contactForm input,
-    .contactForm textarea {
-        width: 100%;
-        padding: 16px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
     }
 
     .contactForm label {
         font-size: 24px;
     }
-    
+
+    .contactForm input,
+    .contactForm textarea {
+        padding: 16px;
+    }
+
     .contactForm button {
         padding: 16px;
         font-size: 24px;
     }
-
 }
 
-/* Desktop Querry */
-
+/* Desktop - min-width: 1024px */
 @media (min-width: 1024px) {
-    .contact .content{
+    .contact .content {
         padding: 0px;
+        margin-top: 16px;
     }
-    
-    .contact .content p {
-        font-size: 20px;
-    }
-    
+
     .contactForm {
         max-width: 75%;
         margin: 0 auto;
@@ -112,15 +87,18 @@
         border: 0;
     }
 
+    .contactForm input,
+    .contactForm textarea {
+        padding: 12px;
+    }
+
     .contactForm button {
         padding: 8px;
-        border-radius: 4px;
-        cursor: pointer;
         font-size: 16px;
+        cursor: pointer;
     }
-    
+
     .contactForm button:hover {
         background-color: #555;
     }
-
 }
